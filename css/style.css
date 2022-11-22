@@ -153,7 +153,6 @@ ul {
 
 .bullets li:nth-child(2) {
     background-color: var(--main-color);
-    border: none
 }
 
 /* End global rules */
@@ -357,14 +356,25 @@ header .container label {
     top: 50%;
     left: 20px;
     font-size: 30px;
+    cursor: pointer;
 }
+.fa-angle-left:hover{
+    color: var(--main-color);
+
+}
+
 
 .fa-angle-right {
     position: absolute;
     top: 50%;
     right: 20px;
     font-size: 30px;
+    cursor: pointer;
 }
+.fa-angle-right:hover {
+    color: var(--main-color);
+}
+
 
 .landing-section .bullets {
     top: 90%;
