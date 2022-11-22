@@ -149,6 +149,7 @@ ul {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+    cursor: pointer;
 }
 
 .bullets li:nth-child(2) {
@@ -319,6 +320,11 @@ header .container label {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    transition: 1s all;
+    -webkit-transition: 1s all;
+    -moz-transition: 1s all;
+    -ms-transition: 1s all;
+    -o-transition: 1s all;
 }
 
 .landing-section .landing-overlay {
@@ -358,7 +364,8 @@ header .container label {
     font-size: 30px;
     cursor: pointer;
 }
-.fa-angle-left:hover{
+
+.fa-angle-left:hover {
     color: var(--main-color);
 
 }
@@ -371,6 +378,7 @@ header .container label {
     font-size: 30px;
     cursor: pointer;
 }
+
 .fa-angle-right:hover {
     color: var(--main-color);
 }
@@ -951,9 +959,15 @@ header .container label {
 }
 
 .prog-holder .prog span {
+    width: 0%;
     height: 30px;
     position: absolute;
     background-color: var(--main-color);
+    transition: 1s all;
+    -webkit-transition: 1s all;
+    -moz-transition: 1s all;
+    -ms-transition: 1s all;
+    -o-transition: 1s all;
 }
 
 .prog-holder .prog span::before {
@@ -982,33 +996,19 @@ header .container label {
     border-bottom: 8px solid transparent;
 }
 
-.skills .prog-holder:nth-child(3) .prog span {
-    width: 95%;
-}
-
 .skills .prog-holder:nth-child(3) .prog span::before {
     content: "95%";
-}
-
-.skills .prog-holder:nth-child(4) .prog span {
-    width: 93%;
 }
 
 .skills .prog-holder:nth-child(4) .prog span::before {
     content: "93%";
 }
 
-.skills .prog-holder:nth-child(5) .prog span {
-    width: 85%;
-}
 
 .skills .prog-holder:nth-child(5) .prog span::before {
     content: "85%";
 }
 
-.skills .prog-holder:nth-child(6) .prog span {
-    width: 87%;
-}
 
 .skills .prog-holder:nth-child(6) .prog span::before {
     content: "87%";
